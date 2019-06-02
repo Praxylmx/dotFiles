@@ -39,7 +39,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -48,7 +48,7 @@ unset color_prompt force_color_prompt
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --group-directories-first --color=auto'
+    alias ls='ls -l --group-directories-first --human-readable --color=auto'
 fi
 
 # enable programmable completion features.
@@ -62,8 +62,7 @@ fi
 
 ### Alias Definitions.
 alias ll='ls -lA'
-alias la='ls -A'
 alias apt='sudo apt'
-alias wine32='WINEPREFIX=~/.wine32/ wine'
+alias winevn='WINEPREFIX=~/wineprefixes/.wine32/ wine'
 alias grep='grep --color=auto'
 alias svim='sudo vim'
