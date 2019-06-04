@@ -121,11 +121,12 @@ bar {
 
 ##### Themeing
 hide_edge_borders smart
-client.focused	# #008964 # 
-for_window [class=".*"] border pixel 2 
+client.focused	# #afafaf # 
+for_window [class=".*"] border pixel 1
 for_window [window_role="About"] floating enable
 for_window [class="Wine"] floating enable
 for_window [class="mpv"] floating enable
+for_window [class="Mainwindow.py"] floating enable
 
 ##### Autostart
 exec --no-startup-id compton --backend glx --config ~/.config/compton/compton.conf
@@ -143,4 +144,3 @@ bindsym XF86AudioLowerVolume exec amixer sset Master 10%-
 bindsym XF86AudioMute exec amixer sset Master toggle
 
 ##### Temporary Floating Window modifiers
-

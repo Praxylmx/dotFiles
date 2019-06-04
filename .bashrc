@@ -63,6 +63,5 @@ fi
 ### Alias Definitions.
 alias ll='ls -lA'
 alias apt='sudo apt'
-alias winevn='WINEPREFIX=~/wineprefixes/.wine32/ wine'
 alias grep='grep --color=auto'
 alias svim='sudo vim'
