@@ -1,43 +1,43 @@
 ! special
-*.foreground:   #c7ccd1
-*.background:   #1c2023
-*.cursorColor:  #c7ccd1
+*.foreground:   #f1ebeb
+*.background:   #272822
+*.cursorColor:  #f1ebeb
 
 ! black
-*.color0:       #1c2023
-*.color8:       #747c84
+*.color0:       #48483e
+*.color8:       #76715e
 
 ! red
-*.color1:       #c7ae95
-*.color9:       #c7ae95
+*.color1:       #dc2566
+*.color9:       #fa2772
 
 ! green
-*.color2:       #95c7ae
-*.color10:      #95c7ae
+*.color2:       #8fc029
+*.color10:      #a7e22e
 
 ! yellow
-*.color3:       #aec795
-*.color11:      #aec795
+*.color3:       #d4c96e
+*.color11:      #e7db75
 
 ! blue
-*.color4:       #ae95c7
-*.color12:      #ae95c7
+*.color4:       #55bcce
+*.color12:      #66d9ee
 
 ! magenta
-*.color5:       #c795ae
-*.color13:      #c795ae
+*.color5:       #9358fe
+*.color13:      #ae82ff
 
 ! cyan
-*.color6:       #95aec7
-*.color14:      #95aec7
+*.color6:       #56b7a5
+*.color14:      #66efd5
 
 ! white
-*.color7:       #c7ccd1
-*.color15:      #f3f4f5
+*.color7:       #acada1
+*.color15:      #cfd0c2
 
 !! URxvt Settings
+URxvt.depth: 32
 URxvt.font: 9x15
 URxvt.bold.font: 9x15bold
 URxvt*scrollBar: false
-URxvt.background: #1c2023
-
+URxvt.background: #272822
