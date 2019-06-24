@@ -12,14 +12,19 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+static const char *colors[][8] = {
+// text foreground background
+{ "#cccccc", "#333333", "#222222" }, // 0 = normal
+{ "#ffffff", "#888888", "#ffffff" }, // 1 = selected
+{ "#333333", "#3399ff", "#222222" }, // 2 = light blue
+{ "#aa3131", "#333333", "#222222" }, // 3 = red
+{ "#333333", "#8afb17", "#222222" }, // 4 = green
+{ "#333333", "#fdd017", "#222222" }, // 5 = yellow
+{ "#333333", "#ffffff", "#222222" }, // 6 = white
+{ "#333333", "#ff9900", "#222222" }, // 7 = orange
 };
-
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -28,7 +33,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Firefox",  NULL,       NULL,       1<<1,	    0,           -1 },
 };
 
 /* layout(s) */
@@ -38,8 +43,8 @@ static const int resizehints = 1;    /* 1 means respect size hints in tiled resi
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[]=",      tile },    /* first entry is default */
-	{ "><>",      NULL },    /* no layout function means floating behavior */
+	{ "",      tile },    /* first entry is default */
+	{ "",      NULL },    /* no layout function means floating behavior */
 	{ "[M]",      monocle },
 };
 
