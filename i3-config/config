@@ -1,6 +1,6 @@
 # Prajwal Gaonkars i3config
 
-set $mod Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar 
 font pango:monospace 8
@@ -112,7 +112,7 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3blocks
     colors {
-        background #1c2023
+        background #1e1e1e
         inactive_workspace  #1e1e1e #afafaf #161616
         focused_workspace #ffffff #1e1e1e #ffffff
 	urgent_workspace   #1e1e1e #ffc235 #161616
@@ -121,22 +121,18 @@ bar {
 
 ##### Themeing
 hide_edge_borders smart
-client.focused	# #afafaf # 
-for_window [class=".*"] border pixel 1
+client.focused	# #ccbd35 # 
+for_window [class=".*"] border pixel 2
 for_window [window_role="About"] floating enable
-for_window [class="Wine"] floating enable
 for_window [class="mpv"] floating enable
-for_window [class="Mainwindow.py"] floating enable
 
 ##### Autostart
-exec --no-startup-id compton --backend glx --config ~/.config/compton/compton.conf
-exec --no-startup-id ~/.fehbg 
+exec --no-startup-id compton --backend glx 
+exec --no-startup-id ~/.fehbg
 
 ##### My Keybindings
 bindsym $mod+F2 exec --no-startup-id firefox
 bindsym $mod+F3 exec --no-startup-id urxvtc -e ranger
-bindsym $mod+F6 exec --no-startup-id java -jar ~/software/jd2/JDownloader.jar
-bindsym $mod+ctrl+c exec urxvtc -e vim ~/.config/i3/config
 
 ##### Audio controls
 bindsym XF86AudioRaiseVolume exec amixer sset Master 10%+
