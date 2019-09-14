@@ -9,6 +9,11 @@ alt + Return
 # restart compton
 alt + shift + g
 	pkill compton && compton --backend glx
+
+# restart polybar
+alt + ctrl + p
+	pkill polybar && polybar top
+
 # program launcher
 alt + d
 	dmenu_run
