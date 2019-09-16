@@ -57,7 +57,7 @@ font-2 = FontAwesome:style=Regular:size=10;1
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = pulseaudio memory wlan date powermenu
+modules-right = pulseaudio memory date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -179,7 +179,7 @@ label =  %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = enp0s18u1u1
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -200,13 +200,12 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp3s0
+interface = enp0s18u1u1
 interval = 3.0
 
 format-connected-underline = #55aa55
-format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
+label-connected = %local_ip% 
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -221,7 +220,7 @@ interval = 5
 date =
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
+time = %I:%M
 time-alt = %H:%M:%S
 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -305,7 +304,7 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
+label-open =  
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}

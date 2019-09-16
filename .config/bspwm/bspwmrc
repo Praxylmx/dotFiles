@@ -17,4 +17,5 @@ bspc rule -a Screenkey manage=off
 
 ~/scripts/.fehbg &
 compton --backend glx &
+urxvtd -q -o -f
 polybar top

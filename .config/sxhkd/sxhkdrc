@@ -4,7 +4,7 @@
 
 # terminal emulator
 alt + Return
-	urxvt
+	urxvtc
 
 # restart compton
 alt + shift + g
@@ -16,8 +16,6 @@ alt + ctrl + p
 
 # program launcher
 alt + d
-	dmenu_run
-alt + p
 	rofi -show drun
 
 # make sxhkd reload its configuration files:
@@ -129,3 +127,13 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+#### My Keybindings
+
+# Launch firefox
+alt + F2
+	firefox
+
+# Launch Krita
+alt + F3
+	krita
