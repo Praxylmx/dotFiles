@@ -36,7 +36,8 @@
 *.color15:      #f9f1ed
 
 !! URxvt Settings
+URxvt.depth: 32
 URxvt.font: 9x15
 URxvt.bold.font: 9x15bold
 URxvt*scrollBar: false
-URxvt.background: #1e1e1e
+URxvt.background: [90]#151511
