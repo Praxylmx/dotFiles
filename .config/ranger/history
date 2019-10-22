@@ -28,4 +28,9 @@ rename yonsep02.mp4
 rename yonsep01.mp4
 find 4
 find 
+shell chmod +x scope.sh
+shell 
+shell S
+rename wallpaper.png
+open_with
 delete

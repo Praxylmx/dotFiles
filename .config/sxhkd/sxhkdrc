@@ -4,11 +4,11 @@
 
 # terminal emulator
 alt + Return
-	urxvtc
+    st
 
 # restart compton
 alt + shift + g
-	pkill compton && compton --backend glx
+	pkill compton && compton
 
 # restart polybar
 alt + ctrl + p
@@ -16,7 +16,10 @@ alt + ctrl + p
 
 # program launcher
 alt + d
-	rofi -show drun
+	dmenu_recency -sb '#008B8B'
+
+alt + n
+    networkmanager_dmenu -sb '#008B8B'
 
 # make sxhkd reload its configuration files:
 alt + Escape
@@ -130,10 +133,11 @@ super + {Left,Down,Up,Right}
 
 #### My Keybindings
 
-# Launch firefox
+# Firefox
 alt + F2
 	firefox
-
-# Launch Krita
-alt + F3
-	krita
+# Brightness
+XF86MonBrightnessUp
+    brightnessctl -c backlight s +10%
+XF86MonBrightnessDown
+    brightnessctl -c backlight s 10%-

@@ -11,11 +11,10 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config top_padding		27
-
 bspc rule -a mpv state=floating
 bspc rule -a Screenkey manage=off
 
-~/scripts/.fehbg &
-compton --backend glx &
-urxvtd -q -o -f
+~/.bin/.fehbg &
+xsetroot -cursor_name left_ptr &
+compton -b &
 polybar top
