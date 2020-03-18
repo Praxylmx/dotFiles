@@ -37,7 +37,8 @@
 
 !! URxvt Settings
 URxvt.depth: 32
-URxvt.font: 9x15
-URxvt.bold.font: 9x15bold
+URxvt.font: xft:mono:medium:size=9
+URxvt.bold.font: xft:mono:medium:size=9
+URxvt.letterSpace: -1
 URxvt*scrollBar: false
 URxvt.background: [90]#151511
