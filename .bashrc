@@ -11,7 +11,7 @@ esac
 HISTCONTROL=ignoreboth
 shopt -s histappend
 HISTSIZE=1000
-HISTFILESIZE=2000
+HISTFILESIZE=1000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -32,7 +32,7 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;3
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls -l --group-directories-first --human-readable --color=auto'
+    alias ls='ls --color=auto'
 fi
 
 # enable programmable completion features.
@@ -45,7 +45,10 @@ if ! shopt -oq posix; then
 fi
 
 ### Alias Definitions.
-alias ll='ls -lA'
+alias ll='LANG=POSIX ls -lAh --group-directories-first'
 alias apt='sudo apt'
 alias grep='grep --color=auto'
 alias svim='sudo vim'
+export PATH="${PATH}:${HOME}/.local/bin/:${HOME}/scripts/"
+
+(cat ~/.cache/wal/sequences &)
