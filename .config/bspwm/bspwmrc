@@ -5,16 +5,14 @@ sxhkd &
 bspc monitor -d I II III IV 
 
 bspc config border_width         2
-bspc config window_gap          10
+bspc config window_gap           5
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config top_padding		27
-bspc rule -a mpv state=floating
 bspc rule -a Screenkey manage=off
+bspc rule -a Firefox-esr desktop=^2
 
-~/.bin/.fehbg &
 xsetroot -cursor_name left_ptr &
-compton -b &
-polybar top
+wal -R && polybar top &

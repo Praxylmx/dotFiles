@@ -16,10 +16,7 @@ alt + ctrl + p
 
 # program launcher
 alt + d
-	dmenu_recency -sb '#008B8B'
-
-alt + n
-    networkmanager_dmenu -sb '#008B8B'
+	dmenu_run
 
 # make sxhkd reload its configuration files:
 alt + Escape
@@ -34,11 +31,11 @@ alt + shift + e
 	bspc quit
 
 # close focused window 
-alt + {_,shift + }q
+alt + shift + c
 	bspc node -c
 
 # alternate between the tiled and monocle layout
-alt + m
+alt + o
 	bspc desktop -l next
 
 # send the newest marked node to the newest preselected node
@@ -121,23 +118,26 @@ alt + ctrl + shift + space
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
-	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+        bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # move a floating window
-super + {Left,Down,Up,Right}
+super + {h,j,k,l}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #### My Keybindings
 
 # Firefox
-alt + F2
-	firefox
-# Brightness
-XF86MonBrightnessUp
-    brightnessctl -c backlight s +10%
-XF86MonBrightnessDown
-    brightnessctl -c backlight s 10%-
+super + b
+        firefox
+alt + r
+        st -e ranger
+alt + m
+        st -e mocp -M ~/.config/moc/
+alt + n
+        st -e nmtui
+super + shift + s
+        systemctl suspend

@@ -9,21 +9,18 @@
 ;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 ;
 ;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/polybar/polybar
-;
-;   The README contains a lot of information
+;   Prajwal Gaonkar.
+;   basic polybar config with minor adjustments.
 ;
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-background = #2d2d2d
-background-alt = #444
-;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #d3d0c8
+background = ${xrdb:color0:#222}
+background-alt = #222
+foreground = ${xrdb:color7:#222}
+foreground-alt = #444
+;primary = #32cd32
+primary = ${xrdb:color5:#222}
 secondary = #e60053
 alert = #bd2c40
 
@@ -55,8 +52,8 @@ font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = FontAwesome:style=Regular:size=10;1
 
-modules-left = bspwm
-modules-center = xwindow
+modules-left = bspwm xwindow
+modules-center = 
 modules-right = wlan pulseaudio memory battery date powermenu
 
 tray-position = right
@@ -79,7 +76,8 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title%
+label-background = ${colors.background-alt}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -200,7 +198,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s18u1u1
+interface = enp0s16u1
 interval = 3.0
 
 format-connected-underline = #55aa55

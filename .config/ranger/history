@@ -1,36 +1,50 @@
-rename config
-rename .Xresources
-rename .local
-set draw_borders seperators
-set draw_borders separators
-set draw_borders true
-rename deb10-master.tar.gz
-rename deb10
-copy 
-copy
-cut 
-
-find jjjjjj
-find
-delete 
-mv ~/Downloads/misc
-open_with 
-rename KaoriAfterStory
-rename *.exe
-rename KaoriAfterStory.exe
-rename
-rename KaoriAfterStory_Data
-find D
-rename cmus
-rename ToradoraEP19.mp4
-rename yonsEP02.mp4
-rename yonsep02.mp4
-rename yonsep01.mp4
-find 4
+find vid
+rename Claymore Episode 1 Greatsword.mp4
+rename ffmpeg_rec
+rename ffrec
+rename space_pixel.png
+rename red_fox.jpg
+rename orange_scene.jpeg
+rename debian_logo.jpeg
+shell walpset debian_logo.jpeg
+rename naruto.jpg
+shell walpset naruto.jpg
+mkdir vim-css-color
+shell mkdir
+shell mkdir naruto
+shell curl -L -o '01. Uzumaki Naruto' 'https://st1x.cdnfile.info/user1342/619b832af8f16a88ca1397c2d4b2c846/EP.1.mp4?token=AcsveYRbDfyPP9l6WnbBjg&expires=1585732538&id=25054&title=(orginalP%20-%20mp4)%20Naruto+Episode+1'
+mkdir mnttemp
+shell jmtpfs mnttemp
+rename naruto_kai
+find q
+shell ffmpegthumbnailer -i Episode\ 1\ -\ Naruto\ Uzumaki.mkv -o $IMAGE_CACHE_PATH/ -s 0
+mkdir imp
+rename 024 - Start your Engines, The Chunin Exam Begins!.mp4
+rename 027 - The Chunin Exam Stage 2, The Forest Of Death.mp4
+find l
+mkdir tmp
+sudo mount /dev/sdb1 ~/dl/tmp
+mount /dev/sdb1 ~/dl/tmp
+shell sudo mount /dev/sdb1 ~/dl/tmp
+q
+qa
+rename 022 - Chunin Challenge, Rock Lee vs. Sasuke!.mp4
+shell sync 
+q!
+rename Ep.27.mp4
+find Ff
+find k
+rename 01. Kaizaki Arata (27), Unemployed.mkv
+find 1
+shell history -c && history -w
+rename 061 -.mp4
+find f
+filter `
 find 
-shell chmod +x scope.sh
+search 
 shell 
-shell S
-rename wallpaper.png
-open_with
+
+rename dracula-theme
+mkdir start/dracula
+rename dracula
 delete
