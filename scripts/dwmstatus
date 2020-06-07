@@ -1,15 +1,19 @@
 #!/bin/sh
 # script which sets root window name(ie. prints to dwm status bar)
-# currently only prints time
 
 dwm_date () {
     printf " %s" "$(date "+%I:%M")"
 }
 
+dwm_battery() {
+    printf "%s"  "$(cat /sys/class/power_supply/BAT1/capacity)"
+}
+
 dwm_date
+dwm_battery
 
 while true
 do
-    xsetroot -name "[$(dwm_date)]"
+    xsetroot -name "[BAT $(dwm_battery)][$(dwm_date)]"
     sleep 15
 done
