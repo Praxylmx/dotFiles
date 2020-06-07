@@ -10,10 +10,10 @@ dwm_battery() {
 }
 
 dwm_date
-dwm_battery
+#dwm_battery
 
 while true
 do
-    xsetroot -name "[BAT $(dwm_battery)][$(dwm_date)]"
+    xsetroot -name "[$(dwm_date)]"
     sleep 15
 done
