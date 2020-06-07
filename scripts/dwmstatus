@@ -5,9 +5,9 @@ dwm_date () {
     printf " %s" "$(date "+%I:%M")"
 }
 
-dwm_battery() {
-    printf "%s"  "$(cat /sys/class/power_supply/BAT1/capacity)"
-}
+#dwm_battery() {
+#    printf "%s"  "$(cat /sys/class/power_supply/BAT1/capacity)"
+#}
 
 dwm_date
 #dwm_battery
