@@ -1,4 +1,5 @@
 #!/bin/sh
+# Prajwal Gaonkar
 # script which sets root window name(ie. prints to dwm status bar)
 
 dwm_date () {
