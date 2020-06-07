@@ -52,4 +52,3 @@ fi
 ### Alias Definitions.
 alias ll="LANG=POSIX ls -lAh --group-directories-first"
 alias apt="sudo apt"
-
