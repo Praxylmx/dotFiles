@@ -1,4 +1,3 @@
-shell jmtpfs mnttemp
 rename naruto_kai
 find q
 shell ffmpegthumbnailer -i Episode\ 1\ -\ Naruto\ Uzumaki.mkv -o $IMAGE_CACHE_PATH/ -s 0
@@ -48,3 +47,4 @@ shell walpset space_pixel.png
 delete
 rename wal
 rename walpset
+rename dotFiles

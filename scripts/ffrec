@@ -3,7 +3,7 @@
 # records screen using ffmpeg
 
 # Records video in 1366x768 resolution and no audio is recorded
-# Uses the ultrafast preset so less CPU usage but large filesize
+# Uses the ultrafast preset, so less CPU usage but larger filesize
 
 FILE="screencast_$(date +%I_%M_%S)".mkv
 notify-send "recording $FILE"

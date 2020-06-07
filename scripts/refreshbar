@@ -1,0 +1,5 @@
+#!/bin/sh
+# Prajwal Gaonkar
+# refreshes status bar in dwm.
+
+pkill dwmstatus && dwmstatus

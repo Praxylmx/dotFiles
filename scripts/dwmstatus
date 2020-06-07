@@ -10,11 +10,8 @@ dwm_date () {
 #    printf "%s"  "$(cat /sys/class/power_supply/BAT1/capacity)"
 #}
 
-dwm_date
-#dwm_battery
-
 while true
 do
     xsetroot -name "[$(dwm_date)]"
-    sleep 15
+    sleep 1m
 done
