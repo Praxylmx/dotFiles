@@ -1,0 +1,9 @@
+#!/bin/sh
+# Prajwal Gaonkar
+# mounts /dev/sdb1 and opens it in ranger file manager.
+# upon quitting ranger unmounts and deletes mountpoint.
+
+mkdir /home/prajwal/mnt
+sudo mount /dev/sdb1 /home/prajwal/mnt  && notify-send "/dev/sdb1 mounted"
+sudo st -e ranger /home/prajwal/mnt && sudo umount /home/prajwal/mnt && notify-send "/dev/sdb1 unmounted"
+rm -r /home/prajwal/mnt

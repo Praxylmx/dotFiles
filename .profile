@@ -34,6 +34,7 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export LESSHISTFILE="$XDG_CACHE_HOME/less/history/"
 
+# Start X server if logging in on tty1
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 	  exec startx
 fi

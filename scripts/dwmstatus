@@ -1,0 +1,15 @@
+#!/bin/sh
+# script which sets root window name(ie. prints to dwm status bar)
+# currently only prints time
+
+dwm_date () {
+    printf " %s" "$(date "+%I:%M")"
+}
+
+dwm_date
+
+while true
+do
+    xsetroot -name "[$(dwm_date)]"
+    sleep 15
+done

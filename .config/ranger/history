@@ -1,18 +1,3 @@
-find vid
-rename Claymore Episode 1 Greatsword.mp4
-rename ffmpeg_rec
-rename ffrec
-rename space_pixel.png
-rename red_fox.jpg
-rename orange_scene.jpeg
-rename debian_logo.jpeg
-shell walpset debian_logo.jpeg
-rename naruto.jpg
-shell walpset naruto.jpg
-mkdir vim-css-color
-shell mkdir
-shell mkdir naruto
-shell curl -L -o '01. Uzumaki Naruto' 'https://st1x.cdnfile.info/user1342/619b832af8f16a88ca1397c2d4b2c846/EP.1.mp4?token=AcsveYRbDfyPP9l6WnbBjg&expires=1585732538&id=25054&title=(orginalP%20-%20mp4)%20Naruto+Episode+1'
 mkdir mnttemp
 shell jmtpfs mnttemp
 rename naruto_kai
@@ -43,8 +28,23 @@ filter `
 find 
 search 
 shell 
-
 rename dracula-theme
 mkdir start/dracula
 rename dracula
+rename scripts
+mkdir themes
+rename Nordic
+rename Nordic-Polar_
+rename Nordic-Polar
+rename themes
+open_with 
+rename .themes
+rename walp
+
+shell walp purple_plane.jpg
+shell walpset me-reaper-invasion.jpg
+shell walp me-reaper-invasion.jpg
+shell walp 
+shell walpset space_pixel.png
 delete
+rename wal

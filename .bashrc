@@ -2,7 +2,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
 ## Exports 
-export PATH="${PATH}:${HOME}/.local/bin/:${HOME}/scripts/"
+export PATH="${PATH}:${HOME}/.local/bin/:$HOME/scripts/"
 
 # If not running interactively, don't do anything
 case $- in
@@ -11,6 +11,7 @@ case $- in
 esac
 
 ### Some History settings.
+HISTFILE=/home/prajwal/.config/bash/bash_history
 HISTCONTROL=ignoreboth
 shopt -s histappend
 HISTSIZE=1000
@@ -30,12 +31,13 @@ case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
 
-PS1='${debian_chroot:+($debian_chroot)}[\[\033[01;34m\]\W\[\033[00m\]] \$ '
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\W\[\033[00m\] \$ '
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
+    alias grep="grep --color=auto"
 fi
 
 # enable programmable completion features.
@@ -49,7 +51,5 @@ fi
 
 ### Alias Definitions.
 alias ll="LANG=POSIX ls -lAh --group-directories-first"
-alias grep="grep --color=auto"
 alias apt="sudo apt"
-alias snim="sudo nvim"
-alias moc="mocp -M $XDG_CONFIG_HOME/moc/"
+
