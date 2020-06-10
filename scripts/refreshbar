@@ -1,5 +1,5 @@
 #!/bin/sh
 # Prajwal Gaonkar
-# refreshes status bar in dwm.
-
+# kills dwmstatus (ie. my dwm statusbar script)
+# and relaunches it, thus updating the statusbar
 pkill dwmstatus && dwmstatus

@@ -1,9 +1,6 @@
 # Prajwal Gaonkar's ~/.bashrc
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
-## Exports 
-export PATH="${PATH}:${HOME}/.local/bin/:$HOME/scripts/"
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -51,5 +48,6 @@ fi
 
 ### Alias Definitions.
 alias ll="LANG=POSIX ls -lAh --group-directories-first"
+alias cp="cp -iv"
 alias apt="sudo apt"
 alias neofetch="neofetch --ascii_distro x"

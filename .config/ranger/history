@@ -1,6 +1,3 @@
-rename naruto_kai
-find q
-shell ffmpegthumbnailer -i Episode\ 1\ -\ Naruto\ Uzumaki.mkv -o $IMAGE_CACHE_PATH/ -s 0
 mkdir imp
 rename 024 - Start your Engines, The Chunin Exam Begins!.mp4
 rename 027 - The Chunin Exam Stage 2, The Forest Of Death.mp4
@@ -48,3 +45,6 @@ delete
 rename wal
 rename walpset
 rename dotFiles
+rename anime
+rename 03_04_15.mkv
+rename screencast_03_04_15.mkv
