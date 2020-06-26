@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir /home/prajwal/mtp
+jmtpfs /home/prajwal/mtp && notify-send "Mounted device at /home/prajwal/mtp"
+st -e nnn /home/prajwal/mtp/ && fusermount -u /home/prajwal/mtp/ && notify-send "Unmounted mtp Device"
+rm -r /home/prajwal/mtp

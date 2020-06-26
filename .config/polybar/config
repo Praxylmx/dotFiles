@@ -18,11 +18,11 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #111111
+background = #111111ff
 background-alt = #111111
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
-foreground-alt = #555
+foreground-alt = #555555
 primary = #77aeae
 secondary = #e60053
 alert = #bd2c40
@@ -110,7 +110,7 @@ label-unmounted-foreground = ${colors.foreground-alt}
 [module/bspwm]
 type = internal/bspwm
 
-ws-icon-0 = "1;"
+ws-icon-0 = "1;1"
 ws-icon-1 = "2;2"
 ws-icon-2 = "3;3"
 ws-icon-3 = "4;4"

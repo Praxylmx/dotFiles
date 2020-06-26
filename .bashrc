@@ -8,7 +8,7 @@ case $- in
 esac
 
 ### Some History settings.
-HISTFILE=/home/prajwal/.config/bash/bash_history
+HISTFILE=/home/prajwal/.cache/bash_history
 HISTCONTROL=ignoreboth
 shopt -s histappend
 HISTSIZE=1000
@@ -46,8 +46,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-### Alias Definitions.
+# Alias Definitions.
 alias ll="LANG=POSIX ls -lAh --group-directories-first"
 alias cp="cp -iv"
 alias apt="sudo apt"
-alias neofetch="neofetch --ascii_distro x"
+alias poweroff="sudo poweroff"
