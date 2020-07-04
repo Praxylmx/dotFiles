@@ -4,7 +4,7 @@
 
 # terminal emulator
 alt + Return
-    st
+	st
 
 # restart compton
 alt + shift + g
@@ -17,6 +17,8 @@ alt + ctrl + p
 # program launcher
 alt + d
 	dmenu_run
+alt + p
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 alt + Escape
@@ -65,10 +67,6 @@ alt + ctrl + {m,x,y,z}
 # focus the node in the given direction
 alt + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
-
-# focus the node for the given path jump
-alt + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous node in the current desktop
 alt + {_,shift + }q
@@ -129,7 +127,11 @@ super + {h,j,k,l}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #My keybinds
+super + shift + r
+	systemctl reboot
+super + shift +s
+	systemctl poweroff
 super + p
-    st -n pmixer -e pulsemixer
+	st -n pmixer -e pulsemixer
 alt + n
-    st -n nmtui -e nmtui
+	st -n nmtui -e nmtui
