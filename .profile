@@ -16,7 +16,7 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-export PATH="${PATH}:${HOME}/.local/bin/:${HOME}/scripts/"
+export PATH="${PATH}:${HOME}/.local/bin/"
 
 # ~/ clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
