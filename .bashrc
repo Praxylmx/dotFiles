@@ -50,4 +50,3 @@ fi
 alias ll="LANG=POSIX ls -lAh --group-directories-first"
 alias cp="cp -iv"
 alias apt="sudo apt"
-alias poweroff="sudo poweroff"
