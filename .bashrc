@@ -50,3 +50,5 @@ fi
 alias ll="LANG=POSIX ls -lAh --group-directories-first"
 alias cp="cp -iv"
 alias apt="sudo apt"
+alias pvpf="sudo protonvpn c -f" #connect to fastest server
+alias pdis="sudo protonvpn d" #disconnect protonvpn
