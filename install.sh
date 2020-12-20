@@ -1,7 +1,7 @@
 # Prajwal Gaonkar 2020
 
 clear
-echo "Copying Dotfiles..."
+echo "Copying Dotfiles ..."
 
 cp .bashrc 			~
 cp .xinitrc 		~
