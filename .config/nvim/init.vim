@@ -41,7 +41,7 @@ set nostartofline
 set ruler
  
 " Always display the status line, even if only one window is displayed
-set laststatus=0
+set laststatus=2
  
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
@@ -95,3 +95,8 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
  
 "------------------------------------------------------------
+" Theme-ing
+" Lightline Colorscheme
+let g:lightline = {
+      \ 'colorscheme': 'one',
+      \ }
