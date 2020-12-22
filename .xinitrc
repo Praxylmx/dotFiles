@@ -2,7 +2,7 @@
 #Prajwal Gaonkar
 
 # run compositor (for transparency and effects)
-compton &
+xcompmgr &
 # start notification daemon
 dunst &
 # set wallpaper
