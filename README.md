@@ -1,4 +1,5 @@
 # AwesomeWM
+![awesome](https://github.com/Praxylmx/dotFiles/blob/master/awesome.png)
 - Basic Minimal AwesomeWM configuration with sensible defaults
   1. Some Keybindings
      - Super + b -> Firefox
