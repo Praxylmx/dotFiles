@@ -1,12 +1,19 @@
+#!/bin/sh
 # Prajwal Gaonkar 2020
 
 clear
-echo "Installing Configuration ..."
 
-cp .bashrc 			~
-cp .xinitrc 		~
-cp .profile 		~
-cp -rf .config/ 	~
-cp -rf .local/ 		~
+cp bashrc ~/.bashrc
+echo "Installed bashrc"
+
+cp profile ~/.profile
+cp xsessionrc ~/.xsessionrc
+echo "Installed profiles"
+
+cp -rf config/ ~/.config
+echo "Installed Configuration"
+
+cp -rf local/ ~/.local
+echo "Installed User Scripts"
 
 echo "Done"

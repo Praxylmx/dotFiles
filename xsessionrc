@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# use .local/bin in user HOME directory
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+# ~/ clean-up:
+#export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # This line will break some DM's (lighdm)
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache/"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
+export LESSHISTFILE="$XDG_CACHE_HOME/lesshist"
