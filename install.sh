@@ -3,17 +3,21 @@
 
 clear
 
-cp bashrc ~/.bashrc
+cp bashrc $HOME/.bashrc
 echo "Installed bashrc"
 
-cp profile ~/.profile
-cp xsessionrc ~/.xsessionrc
+cp profile $HOME/.profile
+cp xsessionrc $HOME/.xsessionrc
 echo "Installed profiles"
 
-cp -rf config/ ~/.config
+cp -rf config/* $HOME/.config/*
 echo "Installed Configuration"
 
-cp -rf local/ ~/.local
+cp -rf local/* $HOME/.local/*
 echo "Installed User Scripts"
 
 echo "Done"
+
+# AwesomeWM config
+cp background $HOME/.config/awesome/background
+echo "Installed Wallpaper"

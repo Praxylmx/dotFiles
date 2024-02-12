@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/prajwal/Downloads/hybrid.txt" added="2024-01-30T17:24:47.563153Z" modified="2024-01-30T17:24:47.563158Z" visited="2024-01-30T17:24:47.563154Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-01-30T17:24:47.563155Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/Super%20Mario%2064%20(U)%20%5B!%5D.z64" added="2024-01-30T18:16:08.119322Z" modified="2024-01-30T18:16:08.119334Z" visited="2024-01-30T18:16:08.119324Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-n64-rom"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-01-30T18:16:08.119327Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/4k-minimalist-high-definition-wallpaper-82744.jpg" added="2024-01-31T15:05:26.760605Z" modified="2024-01-31T15:05:26.760612Z" visited="2024-01-31T15:05:26.760606Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-01-31T15:05:26.760609Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Videos/2024-02-01%2017-29-02.mkv" added="2024-02-01T12:00:23.529767Z" modified="2024-02-01T12:00:23.529801Z" visited="2024-02-01T12:00:23.529768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-01T12:00:23.529771Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Videos/awesome.mp4" added="2024-02-01T12:01:56.368408Z" modified="2024-02-01T12:03:09.994187Z" visited="2024-02-01T12:01:56.368410Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-01T12:03:09.994182Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Pictures/backgrounds/linux_retro.jpg" added="2024-02-02T08:29:20.975815Z" modified="2024-02-02T08:29:21.492663Z" visited="2024-02-02T08:29:20.975817Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-02T08:29:21.492655Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/slick-greeter/badges/awesome.svg" added="2024-02-02T10:57:21.852028Z" modified="2024-02-02T10:57:21.852058Z" visited="2024-02-02T10:57:21.852030Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-02T10:57:21.852047Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/svgtopng.zip" added="2024-02-02T10:57:24.916850Z" modified="2024-02-02T10:57:24.916859Z" visited="2024-02-02T10:57:24.916851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-02T10:57:24.916854Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/awesome.png" added="2024-02-05T19:06:20.470149Z" modified="2024-02-05T19:06:20.470164Z" visited="2024-02-05T19:06:20.470151Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-05T19:06:20.470156Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/epy-2022.2.14.zip" added="2024-02-08T18:50:35.873350Z" modified="2024-02-08T18:50:35.873358Z" visited="2024-02-08T18:50:35.873351Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-08T18:50:35.873354Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/epy-2022.12.11.zip" added="2024-02-08T18:50:55.817174Z" modified="2024-02-08T18:50:55.817193Z" visited="2024-02-08T18:50:55.817176Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-08T18:50:55.817185Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/Harry_Potter_and_the.epub" added="2024-02-08T19:01:56.447818Z" modified="2024-02-08T19:01:56.447835Z" visited="2024-02-08T19:01:56.447820Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/epub+zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-08T19:01:56.447826Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/prajwal/Downloads/lf-linux-amd64.tar.gz" added="2024-02-08T19:06:54.992212Z" modified="2024-02-08T19:06:54.992233Z" visited="2024-02-08T19:06:54.992214Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-02-08T19:06:54.992218Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

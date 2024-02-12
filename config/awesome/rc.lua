@@ -161,6 +161,9 @@ local tasklist_buttons = gears.table.join(
                                               awful.client.focus.byidx(-1)
                                           end))
 
+-- Set Wallpaper
+beautiful.wallpaper = awful.util.get_configuration_dir() .. "background"
+
 local function set_wallpaper(s)
     -- Wallpaper
     if beautiful.wallpaper then
@@ -294,11 +297,13 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
     -- My Keybinds
-    awful.key({"Mod4", }, "x", function () awful.spawn("firefox") end,
-              {description = "Launch Firefox", group = "launcher"}),
-    awful.key({"Mod4", }, "n", function () awful.spawn("x-terminal-emulator -e nmtui") end,
+    awful.key({"Mod4", }, "b", function () awful.spawn("firefox") end,
+              {description = "Firefox", group = "Applications"}),
+    awful.key({"Mod4", }, "e", function () awful.spawn(terminal .. " -e lf") end,
+              {description = "lf file manager", group = "Applications"}),
+    awful.key({"Mod4", }, "n", function () awful.spawn(terminal .. " -e nmtui") end,
               {description = "Network Management", group = "System Settings"}),
-    awful.key({"Mod4", }, "p", function () awful.spawn("x-terminal-emulator -e pulsemixer") end,
+    awful.key({"Mod4", }, "p", function () awful.spawn(terminal .. " -e pulsemixer") end,
               {description = "PulseAudio Settings", group = "System Settings"}),
 
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
@@ -587,5 +592,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Display Scaling
 awful.screen.set_auto_dpi_enabled(true)
 
--- Set Wallpaper
-gears.wallpaper.maximized("/home/prajwal/Pictures/backgrounds/linux_retro.jpg", s)
+

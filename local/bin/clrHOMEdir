@@ -1,0 +1,12 @@
+#!/bin/sh
+rm ~/.xsession-errors
+rm ~/.xsession-errors.old
+rm ~/.sudo_as_admin_successful
+rm ~/.viminfo
+
+echo "Cleaned Temp files"
+
+rm -rf ~/.cache/*
+
+echo "Cleared Cache"
+
